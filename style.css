@@ -5,9 +5,13 @@ body {
 }
 
 h1 {
+  font-family: fantasy;
+  font-size: 3rem;
 }
 
 h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
 }
 
 p {
@@ -25,15 +29,18 @@ p {
    gap: 1rem;
 } */
 
-ol {
+ul {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
-.firstletter{
-    font-size: 30px;
+.firstletter {
+  font-size: 50px;
+  margin-right: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
 .box-demo {
