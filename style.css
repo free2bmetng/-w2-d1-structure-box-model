@@ -1,13 +1,39 @@
+body {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 h1 {
-
 }
 
-h2{
-
+h2 {
 }
 
-p{
-    
+p {
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+/* nav {
+  display: flex;
+  align-content: center;
+   gap: 1rem;
+} */
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.firstletter{
+    font-size: 30px;
 }
 
 .box-demo {
